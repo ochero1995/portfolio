@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
-import '../../styles/App.css'
+import NavBar from '../navigation/Navigation'
+import '../../styles/App.scss'
 
 class Header extends Component {
     render(){
         return (
-            <header className="App-header">
-                <p>
-                    Welcome to my <code>Portfolio.js</code>.
-                </p>
-                <button className="primary-button pulsate">Click here!</button>
-            </header>
+            <div className="App-header">
+            <NavBar />
+            <h1 class="headline">Hello<span className="blinking-cursor">|</span></h1>
+            </div>
         );
     }
 }

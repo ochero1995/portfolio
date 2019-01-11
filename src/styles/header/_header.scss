@@ -1,0 +1,109 @@
+@import '../variables';
+
+/* Heading section */
+.App-header {
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .main-nav {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    transition: all ease-in-out .5s;
+  }
+
+  .main-nav li:first-child {
+    margin-right: auto;
+  }
+
+  .main-nav a {
+    color: $primary-link-color;
+      display: block;
+      padding: 15px;
+      text-decoration: none;
+  }
+  
+  .main-nav a:hover {
+    transition: all ease-in-out .5s;
+    background: #000;
+    color: #fff;
+  }
+  
+  .main-nav .logo {
+    font-family: 'Lobster', cursive;
+      font-size: 1.5em;
+      font-weight: 100;
+  }
+  
+  .headline {
+    display: flex;
+    justify-content: center;
+    margin-top: 50vh;
+    font-size: 5em;
+    font-weight: 100;
+  }
+  
+  /* Header Effects */
+  .nav-bar-scroll {
+    background: rgba(0, 0, 0, 0.5);
+    a {
+      color: #fff;
+    }
+  }
+  
+  .blinking-cursor {
+    font-size: 1em;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+  }
+  
+  @keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: black;
+    }
+  }
+  
+  @-moz-keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: black;
+    }
+  }
+  
+  @-webkit-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: black;
+    }
+  }
+  
+  @-ms-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: black;
+    }
+  }
+  
+  @-o-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: black;
+    }
+  }

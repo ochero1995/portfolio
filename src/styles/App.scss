@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import '../styles/header/header';
+@import '../styles/about/about';
+@import '../styles/reset';
+@import '../styles/variables';
+
+/* General styles */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 1.2em;
+	color: $primary-font-color;
+  font-family: 'Raleway', sans-serif;
+  background: $primary-background;
+}
+
