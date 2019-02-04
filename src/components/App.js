@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import NavBar from './navigation/Navigation';
+import About from './about/About';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <NavBar />
-        <main style={{marginTop: '64px'}}>
-        </main>     
+        <main>
+          <About />  
+        </main>
+         
       </div>
     );
   }
