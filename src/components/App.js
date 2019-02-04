@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import '../styles/App.scss';
-import Header from './header/Header';
-import About from './about/About'
+import NavBar from './navigation/Navigation';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />  
-        <About />      
+        <NavBar />
+        <main style={{marginTop: '64px'}}>
+        </main>     
       </div>
     );
   }

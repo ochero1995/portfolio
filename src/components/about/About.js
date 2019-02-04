@@ -3,7 +3,11 @@ import React, { Component } from "react";
 class About extends Component {
     render(){
         return (
-            <div>About me section</div>
+            <div className="">
+                <div className="">
+                    <img src="" alt="" className=""></img>
+                </div>
+            </div>
         );
     }
 }
