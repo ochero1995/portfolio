@@ -39,7 +39,7 @@
     text-decoration: none;
 }
 
-.spacer{
+.spacer {
     flex: 1;
 }
 
@@ -48,12 +48,13 @@
     color: #000000;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 424px) {
     .toolbar__navigation-items {
         display: none;
     }
 
-    .toolbar__navigation {
-        
+    .toolbar__navigation a {
+        margin-left: 70%;
     }
+
 }
